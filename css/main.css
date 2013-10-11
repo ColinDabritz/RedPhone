@@ -1,0 +1,29 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.command
+{
+  /* Monaco is the default mac terminal font */
+  font-family: Monaco, monospace;
+  color: black;
+  border: 1px;
+  background-color: lightgrey;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
