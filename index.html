@@ -68,11 +68,16 @@
     </div> -->
 
     <div class="container">
-      
-      <div class="command">
-        Example Command
-      </div>
+      <div id="history">
 
+      </div>
+      <hr>
+      <form name="command-line" action="">
+        <div class="input-group">
+          <span class="input-group-addon">$</span>
+          <input id="command-entry" type="text" class="form-control" placeholder="command -flgs argument1 argument2 argument3" autofocus>
+        </div>
+      </form>
       <hr>
 
       <footer>
@@ -84,5 +89,7 @@
         <script src="js/vendor/bootstrap.min.js"></script>
 
         <script src="js/main.js"></script>
+
+        <script src="js/commandline.js"></script>
     </body>
 </html>
