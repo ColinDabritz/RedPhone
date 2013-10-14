@@ -67,15 +67,35 @@
       </div>
     </div> -->
 
+    <div id="pwdterm1" class="workingdirectory">/mydirectory/</div>
+
+    <div id="root" class="filesystem directory">
+      <div
+      data-name="mydirectory"
+      data-permissions="drwxrwxr-x"
+      class="directory">
+        <div
+        data-name="mydirectoryfile"
+        data-permissions="drwxrwxr--"
+        class="file">This file has some content. It is inside of a directory.</div>
+      </div>
+      <div
+        data-name="myfile"
+        data-permissions="drwxrwxr--"
+        class="file">This file has some content. It is at the root.</div>
+    </div>
+
     <div class="container">
       <div id="history">
 
       </div>
       <hr>
-      <form name="command-line" action="">
+      <form name="command-line" action=""
+      autocomplete="off">
         <div class="input-group">
           <span class="input-group-addon">$</span>
-          <input id="command-entry" type="text" class="form-control" placeholder="command -flgs argument1 argument2 argument3" autofocus>
+          <input id="command-entry" type="text" class="form-control" placeholder="command -flgs argument1 argument2 argument3" autofocus
+          autocomplete="off">
         </div>
       </form>
       <hr>
@@ -83,7 +103,7 @@
       <footer>
         <p>RedPhone - 2013</p>
       </footer>
-    </div> <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    </div> <!-- /container -->        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
 
         <script src="js/vendor/bootstrap.min.js"></script>

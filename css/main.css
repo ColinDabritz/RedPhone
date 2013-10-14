@@ -12,10 +12,17 @@
   border: 1px;
   background-color: lightgrey;
   padding: 5px;
-  margin: 5px;
+  margin: 5px 5px 0px 5px;
   border-radius: 5px;
 }
 
+.filesystem,
+.file,
+.directory,
+.workingdirectory
+{
+  display: none;
+}
 
 
 

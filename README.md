@@ -8,6 +8,39 @@ The notion of the environment is to provide at least portions of a typical bash 
 Particularly, imagine POSIX or similar on a website. "Everything is a file" becomes "Everything is a DOM element". Javascript is the execution environment. A file system could simply be a hierarchy of divs, with manipulation in jQuery.
 In this space we can give the learner an easy safe environment to explore and learn, set up scenarios, give hints and other help. This is an exploration of those ideas.
 
+Commands
+========
+
+Here are commands I'd like to support some day:
+
+* pwd
+* clear
+* ls
+* man
+* cd
+* mv
+* cp
+* rm
+* mkdir
+* rmdir
+* cat
+* echo
+* less
+* touch
+* hostname
+* who
+* whoami
+* history
+* ps (how should these work?)
+* top
+* (pipes and redirects)
+* tee
+* find
+* grep
+* awk
+* sed
+* exit
+
 Notes:
 * Example file hierarchy displays
     * http://jsfiddle.net/JEPtg/
